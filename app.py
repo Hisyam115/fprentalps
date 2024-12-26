@@ -12,8 +12,8 @@ db = mysql.connector.connect(
     user="adminrental", 
     password="Adminrental123", 
     host="rentalps.mysql.database.azure.com", 
-    port=3306,
-    database="fprentalps"
+    port=3306, 
+    database="fprentalps}"
 )
 
 # Secret key for session management
